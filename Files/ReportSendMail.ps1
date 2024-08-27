@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 ﻿#Write-Verbose 'Producing final HTML'
 #Write-Verbose 'Pipe this output to a file to save it'
 #ConvertTo-HTML -Head $head -PostContent $frag1,$frag2 `
@@ -28,5 +28,4 @@ $params = @{'To'='jeffreylangdon@outlook.com'
 'Body'='The $Server Service is no longer responding'
 'Subject'='$Server service offline'
 'SMTPServer'='intrelay.mathematica-mpr.com'}
->>>>>>> 34600a805d77d59da65af937a3bf051fd5c91708
 Send-MailMessage @params
