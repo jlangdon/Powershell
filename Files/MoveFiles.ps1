@@ -27,7 +27,3 @@ Get-ChildItem $OrgPath -Filter *.bak |  Where-Object {$_.LastWriteTime.Date -ge 
 
  #Get-ChildItem $DestPath -Filter *.bak 
 
-
-
-
->>>>>>> 34600a805d77d59da65af937a3bf051fd5c91708
